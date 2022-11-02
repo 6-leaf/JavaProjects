@@ -3,8 +3,8 @@ package BankAccountApp;
 public class Saving extends Account{
 
     // List the properties specific to savings accounts
-    int safetyDepositBoxId;
-    int safetyDepositBoxKey;
+    private int safetyDepositBoxId;
+    private int safetyDepositBoxKey;
 
 
     // Constructor to initialize settings for savings account properties
