@@ -12,6 +12,12 @@ public class BankAccountApp {
         System.out.println("=============================== ");
         svgacct1.showInfo();
 
+//        svgacct1.deposit(5000);
+//        svgacct1.withdraw(200);
+//        svgacct1.transfer("Brokerage", 2500);
+
+        svgacct1.compound();
+
 
         // Read a CSV file then create new accounts on that data
 
